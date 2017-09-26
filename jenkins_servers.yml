@@ -1,0 +1,7 @@
+---
+- hosts: jenkins_servers
+  become: yes
+  vars:
+    - group_vars/jenkins.yml
+  roles:
+    - jenkins
