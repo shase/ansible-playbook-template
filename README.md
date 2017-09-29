@@ -13,3 +13,8 @@ ansible-galaxy install -f -r requirements.yml --roles-path=./roles
 ```
 ansible-playbook jenkins_servers.yml -i inventory/hosts
 ```
+
+## test
+```
+curl 127.0.0.1:8080
+```
