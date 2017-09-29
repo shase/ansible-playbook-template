@@ -1,0 +1,2 @@
+- src: "git+https://github.com/shase/ansible-role-jenkins-template.git"
+  version: "remotes/origin/master"
