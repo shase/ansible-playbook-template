@@ -4,4 +4,4 @@
   vars_files:
     - group_vars/jenkins.yml
   roles:
-    - jenkins
+    - ansible-role-jenkins-template
